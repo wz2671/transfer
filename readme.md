@@ -16,13 +16,14 @@
 	不行就放在c:/windows目录下的 Sytem32/SysWOW64 对应文件夹下 
 	或者.dll所在目录添加到环境变量中 
 
-3. 程序的入口类为view包中transfer类 
+3. 程序的入口类为view包中big_view类 
 
 4. 实现的功能： (1). 常用office文件类型转换(部分格式转换尚未测试) 
+
 				(2). 对word文档的简单编辑(接口函数已给出，其余功能可自行添加) 
 
 ***
 
 ### 运行效果：
 
-![example](/Transfer/res/example.png)
+![example](https://raw.githubusercontent.com/wz2671/transfer/master/res/example.png)
