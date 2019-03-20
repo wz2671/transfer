@@ -1,29 +1,29 @@
-**����Ŀ����java��jacob��ʵ�����ļ���ʽת������**
+**本项目利用java及jacob包实现了文件格式转化功能**
 
-### ����Ҫ��
+### 环境要求
 
-1. java����ػ�����jdk�� 
-2. microsoft office 2013������ 
+1. java的相关环境（jdk） 
+2. microsoft office 2013及以上 
 
 ***
 
-### �������� 
+### 环境配置 
 
-1. ��jacob���jar�����뵽��Ŀ� project->properties->java build path->add external jars->ѡ��jacob.jar�� 
+1. 将jacob里的jar包导入到项目里， project->properties->java build path->add external jars->选中jacob.jar包 
 
-2. �����32λϵͳ ��jacob-1.18-x86.dll �ļ����Ƶ�����Ŀ¼�£������64λ����ϵͳ��jacob-1.18-x64.dll 
+2. 如果是32位系统 将jacob-1.18-x86.dll 文件复制到下面目录下，如果是64位操作系统将jacob-1.18-x64.dll 
 	java\jdk1.8.0_45\jre\bin 
-	���оͷ���c:/windowsĿ¼�µ� Sytem32/SysWOW64 ��Ӧ�ļ����� 
-	����.dll����Ŀ¼���ӵ����������� 
+	不行就放在c:/windows目录下的 Sytem32/SysWOW64 对应文件夹下 
+	或者.dll所在目录添加到环境变量中 
 
-3. ����������Ϊview����big_view�� 
+3. 程序的入口类为view包中big_view类 
 
-4. ʵ�ֵĹ��ܣ� (1). ����office�ļ�����ת��(���ָ�ʽת����δ����) 
-
-				(2). ��word�ĵ��ļ򵥱༭(�ӿں����Ѹ��������๦�ܿ���������) 
+4. 实现的功能： 
+(1). 常用office文件类型转换(部分格式转换尚未测试) 
+(2). 对word文档的简单编辑(接口函数已给出，其余功能可自行添加) 
 
 ***
 
-### ����Ч����
+### 运行效果：
 
 ![example](https://raw.githubusercontent.com/wz2671/transfer/master/res/example.png)
